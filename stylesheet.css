@@ -1,0 +1,140 @@
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Times New Roman";
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  background-color: #ce2b61;
+  color: #fff;
+  height: 90px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+.header-list li {
+  float: right;
+  padding: 33px 20px ;
+}
+
+.bgimage{
+  height:500px;
+  background-image: url(https://wallpapercave.com/wp/wp3351566.jpg);
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.main{
+  padding-bottom: 20px;
+}
+
+.contents {
+    height: auto;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.contents-item {
+    margin:0 auto; 
+    text-align: center; 
+}
+
+.contents-item p{
+    font-size:30px;
+    margin-top:20px;
+    color:beige;
+    font-style: italic, bold;
+}
+
+.contents-item img{
+    margin-top: 25px;
+    max-width:20%;
+    height:400px;
+}
+
+img:hover{
+  opacity: 2.0;
+}
+
+.hobbies h6{
+  font-size: 30px;
+  text-align: center;
+  color: #007c92;
+  padding-top: 20px;
+}
+
+.hobbies p{
+  font-size: 25px;
+  text-align: center;
+  color: #920031;
+}
+
+.skills h6{
+  font-size: 30px;
+  text-align: center;
+  color: #007c92;
+  padding-top: 20px;
+}
+
+.skills ul{
+  font-size: 25px;
+  text-align: center;
+  color: #920031;  
+  line-height: 25px;
+  list-style: url(https://wallpapercave.com/wp/wp3351566.jpg);
+}
+
+.footer{
+  padding-top: 20px;
+  padding-bottom: 25px;
+  padding-left: 50px;
+  background-color: #c584da;
+  color: #fff;
+  line-height: 20px;
+}
+
+.follow{
+  color: #69107a;
+}
+
+.follow h6{
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+.follow p{
+  font-size: 20px;
+  float:left;
+  line-height:15px;
+}
+
+.follow a{
+  color: #a6ff00;
+  font-size: 20px;
+}
+
+.myProjectTitle p{
+  font-size: 20px;
+  float:left;
+  line-height:15px;
+}
+
+.myProjectTitle a{
+  color: #a6ff00;
+  font-size: 20px;
+}
